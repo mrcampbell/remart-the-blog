@@ -13,7 +13,10 @@ import bear from "./styles/app.css"
 export function links() {
   return [
     { rel: "stylesheet", href: styles },
-    { rel: "stylesheet", href: bear }
+    { rel: "stylesheet", href: bear },
+    { rel: "preconnect", href: "https://fonts.googleapis.com" },
+    { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: true },
+    { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" },
   ]
 }
 

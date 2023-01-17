@@ -1,7 +1,5 @@
 import bearcss from '../../styles/bear.css'
-export const links = () => [
-  { rel: "stylesheet", href: bearcss },
-]
+
 
 export default function Index() {
   return (
