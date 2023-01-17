@@ -1,6 +1,11 @@
+import bearcss from '../../styles/bear.css'
+export const links = () => [
+  { rel: "stylesheet", href: bearcss },
+]
+
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
+    <div className='content'>
       <h1>Welcome to Remix</h1>
       <ul>
         <li>
